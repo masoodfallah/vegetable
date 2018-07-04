@@ -102,7 +102,7 @@ a {
     color: #B2161B;
 }
 #sp-header {
-    background-color: #00050cc9 !important;
+    background-color: #025865d6 !important;
     color: #f0f0f0 !important;
     width: 100% !important;
     height: 60px !important;
@@ -374,7 +374,7 @@ a {
     background-color: #303030 !important;
 }
 .nav > li > a:hover {
-    background-color: #363a3f !important;
+    background-color: #025865d6 !important;
 }
 .menu > li:hover a {
     color: #E03C41;

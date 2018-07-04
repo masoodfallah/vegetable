@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'این سایت موقتا به دلیل تعمیرات در دسترس نیست.<br /> لطفا بعداً مراجعه فرمایید.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Security Software';
+	public $sitename = 'vegetable';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'security';
+	public $db = 'vegetable';
 	public $dbprefix = 'def_';
 	public $live_site = '';
 	public $secret = 'ex8zVo6BG8qUk6pg';

@@ -377,7 +377,7 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
     jQuery("document").ready(function ($) {
 
         $(document).scroll(function () {
-            if ($(window).scrollTop() > 200) {
+            if ($(window).scrollTop() > 0) {
                 $('#sp-header').addClass('sticky animated fadeInDown');
 
             } else {
