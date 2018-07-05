@@ -70,21 +70,21 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
         <div class="container">
             <div class="row" style="position: relative;">
 
-
-                <!--LOGO-->
-                <div id="sp-logo" class="col-xs-8 col-sm-8 col-md-3">
-                    <div class="sp-column ">
-                        <a class="logo" href="/">
-                            <img class="sp-default-logo" src="templates/pesteh3/css/img/logo.png"
-                                 alt="masood website logo">
-                            <!--<img class="sp-retina-logo" src="templates/pesteh3/css/img/logo.png" alt="لوگو سیکور" width="200" height="80">-->
-                        </a>
-                    </div>
-                </div>
-
+<!---->
+<!--                <!--LOGO-->-->
+<!--                <div id="sp-logo" class="col-xs-8 col-sm-8 col-md-3">-->
+<!--                    <div class="sp-column ">-->
+<!--                        <a class="logo" href="/">-->
+<!--                            <img class="sp-default-logo" src="templates/pesteh3/css/img/logo.png"-->
+<!--                                 alt="masood website logo">-->
+<!--                            <!--<img class="sp-retina-logo" src="templates/pesteh3/css/img/logo.png" alt="لوگو سیکور" width="200" height="80">-->-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
 
                 <!--MENU-->
-                <div id="sp-menu" class="col-xs-1 col-sm-1 col-md-7 no-gutter" style="position: static;">
+                <div id="sp-menu" class="col-xs-1 col-sm-1 col-md-7 " >
                     <nav class="menu-contain">
                         <jdoc:include type="modules" name="menu"/>
                     </nav>
@@ -92,25 +92,26 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
 
 
                 <!--shoppingcart-->
-                <div id="sp-shoppingcart" class="col-xs-1 col-sm-1 col-md-1 no-gutter">
-                    <div class="sp-column no-gutter">
-                        <jdoc:include type="modules" name="shoppingcart"/>
-                        <a class="shoppingcart" href="/">
-                            <i class="pe pe-7s-cart" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+<!--                <div id="sp-shoppingcart" class="col-xs-1 col-sm-1 col-md-1 no-gutter">-->
+<!--                    <div class="sp-column no-gutter">-->
+<!--                        <jdoc:include type="modules" name="shoppingcart"/>-->
+<!--                        <a class="shoppingcart" href="/">-->
+<!--                            <i class="pe pe-7s-cart" aria-hidden="true"></i>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
                 <!--SEARCH-->
-                <div id="sp-topsearch" class="col-xs-1 col-sm-1 col-md-1 no-gutter">
-                    <div class="sp-column no-gutter">
-                        <jdoc:include type="modules" name="search"/>
-                        <a class="search" href="/">
-                            <i class="pe-7s-search" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+<!--                <div id="sp-topsearch" class="col-xs-2 col-sm-2 col-md-2 no-gutter">-->
+<!--                    <div class="sp-column no-gutter">-->
+<!--                        <jdoc:include type="modules" name="search"/>-->
+<!--                        <a class="search" href="/">-->
+<!--                            0936-739-9611   مسعود فلاح-->
+<!--<!--                            <i class="pe-7s-search" aria-hidden="true"></i>-->-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
             </div>

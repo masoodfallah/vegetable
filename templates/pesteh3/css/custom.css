@@ -105,7 +105,7 @@ a {
     background-color: #025865d6 !important;
     color: #f0f0f0 !important;
     width: 100% !important;
-    height: 60px !important;
+    /*height: 60px !important;*/
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -312,13 +312,15 @@ a {
 #sp-header #sp-menu {
     max-height: 60px;
     float: right;
+    z-index: 10;
 }
 #sp-topsearch {
     text-align: center;
+    z-index: 10;
 }
-#sp-topsearch i {
-    font-size: 18px;
-    font-weight: bold;
+#sp-topsearch a {
+    /*font-size: 18px;*/
+    /*font-weight: bold;*/
     line-height: 60px;
 }
 #sp-shoppingcart {
@@ -333,6 +335,7 @@ a {
 }
 .slider {
     margin-left: 0;
+    margin-top: -60px !important;
 }
 .nav-menu {
     height: 60px;
