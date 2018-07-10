@@ -1,6 +1,6 @@
 <?php
 /**
- * @package     Joomla.Site
+ * @package     .Site
  * @subpackage  Templates.pesteh3
  *
  * @copyright   Copyright (C) 2005 - 2016 Open Source Matters, Inc. All rights reserved.
@@ -64,24 +64,23 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
 
 
     <!-- Header -->
-
-
     <header id="sp-header" class="flex">
         <div class="container">
             <div class="row" style="position: relative;">
 
-<!---->
-<!--                <!--LOGO-->-->
-<!--                <div id="sp-logo" class="col-xs-8 col-sm-8 col-md-3">-->
-<!--                    <div class="sp-column ">-->
-<!--                        <a class="logo" href="/">-->
-<!--                            <img class="sp-default-logo" src="templates/pesteh3/css/img/logo.png"-->
-<!--                                 alt="masood website logo">-->
-<!--                            <!--<img class="sp-retina-logo" src="templates/pesteh3/css/img/logo.png" alt="لوگو سیکور" width="200" height="80">-->-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
+
+                <!--LOGO-->
+                <div id="sp-logo" class="col-xs-8 col-sm-8 col-md-3">
+                    <div class="sp-column ">
+                        <a class="logo" href="/">
+                            <img class="sp-default-logo" src="templates/pesteh3/css/img/logo.png"
+                                 alt="masood website logo">
+<!--                            <p style="font-size: 30px">لوگو سی پل</p>-->
+                            <!--<img class="sp-retina-logo" src="templates/pesteh3/css/img/logo.png" alt="لوگو سیکور" width="200" height="80">-->
+                        </a>
+                    </div>
+                </div>
+
 
                 <!--MENU-->
                 <div id="sp-menu" class="col-xs-1 col-sm-1 col-md-7 " >
@@ -91,7 +90,7 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
                 </div>
 
 
-                <!--shoppingcart-->
+                    <!--shoppingcart-->
 <!--                <div id="sp-shoppingcart" class="col-xs-1 col-sm-1 col-md-1 no-gutter">-->
 <!--                    <div class="sp-column no-gutter">-->
 <!--                        <jdoc:include type="modules" name="shoppingcart"/>-->
@@ -103,15 +102,15 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
 
 
                 <!--SEARCH-->
-<!--                <div id="sp-topsearch" class="col-xs-2 col-sm-2 col-md-2 no-gutter">-->
-<!--                    <div class="sp-column no-gutter">-->
-<!--                        <jdoc:include type="modules" name="search"/>-->
-<!--                        <a class="search" href="/">-->
-<!--                            0936-739-9611   مسعود فلاح-->
-<!--<!--                            <i class="pe-7s-search" aria-hidden="true"></i>-->-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
+                <div id="sp-topsearch" class="col-xs-2 col-sm-2 col-md-2 no-gutter">
+                    <div class="sp-column no-gutter">
+                        <jdoc:include type="modules" name="search"/>
+                        <a class="search" href="/">
+                            0936-739-9611 &nbsp; مسعود فلاح
+<!--                            <i class="pe-7s-search" aria-hidden="true"></i>-->
+                        </a>
+                    </div>
+                </div>
 
 
             </div>
@@ -129,104 +128,7 @@ if (JFactory::getApplication()->getMenu()->getActive() != '')
     <?php endif; ?>
 
 
-    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <div class="container">
-        <div class="row" style="position: relative;">
-
-            <!--Item 1-->
-            <?php if ($this->countModules('item1')) : ?>
-                <div class="col-sm-4 pull-right">
-                    <div class="sppb-icon item">
-                        <i class="pe-7s-diamond"></i>
-                        <jdoc:include type="modules" name="item1" style="xhtml"/>
-                    </div>
-                </div>
-            <?php endif; ?>
-
-
-            <!--Item 2-->
-            <?php if ($this->countModules('item2')) : ?>
-                <div class="col-sm-4 pull-right">
-                    <div class="sppb-icon item">
-                        <i class="pe-7s-loop"></i>
-                        <jdoc:include type="modules" name="item2" style="xhtml"/>
-                    </div>
-                </div>
-            <?php endif; ?>
-
-
-            <!--Item1-->
-            <?php if ($this->countModules('item3')) : ?>
-                <div class="col-sm-4 pull-right">
-                    <div class="sppb-icon item">
-                        <i class="pe-7s-science"></i>
-                        <jdoc:include type="modules" name="item3" style="xhtml"/>
-                    </div>
-                </div>
-            <?php endif; ?>
-
-
-        </div>
-    </div>
-    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
-
-
-    <?php if ($this->countModules('description')) : ?>
-        <div class="main-description">
-            <div class="inner-description">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <div class="description">
-                                <jdoc:include type="modules" name="description" style="xhtml"/>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <div class="on_desktop">
-                                <img class="image" src="templates/pesteh3/css/img/tab1.png" alt="Our Products"
-                                     width="100%"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <?php endif; ?>
-    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
-    <?php if ($this->countModules('feature1') || $this->countModules('feature2')
-        || $this->countModules('feature3') || $this->countModules('feature4')) : ?>
-        <div class="main-feature">
-            <!--            <div class="container">-->
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                    <div class="feature">
-                        <h3 class="feature-title">درباره کهربا</h3>
-                        <div class="feature1 col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <jdoc:include type="modules" name="feature1" style="xhtml"/>
-                        </div>
-                        <div class="feature2 col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <jdoc:include type="modules" name="feature2" style="xhtml"/>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="feature3 col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <jdoc:include type="modules" name="feature3" style="xhtml"/>
-                        </div>
-                        <div class="feature4 col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <jdoc:include type="modules" name="feature4" style="xhtml"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right" style="padding: 0">
-                    <div class="on_feature">
-                        <img class="image" src="templates/pesteh3/css/img/about-image2.jpg" alt="Our feature"
-                             width="100%"/>
-                    </div>
-                </div>
-            </div>
-            <!--            </div>-->
-        </div>
-    <?php endif; ?>
     <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
     <?php if ($this->countModules('ourcustomer')) : ?>
